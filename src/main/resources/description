@@ -1,3 +1,6 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Opis problemu
+----------------------------------------------------------------------------------------------------------------------------------------------------------
 Imagine you have a call center with three levels of employees: respondent, manager and director.
 
 An incoming telephone call must be first allocated to a respondent, who is free.
@@ -7,3 +10,24 @@ If the manager is not free or not able to handle it, then the call should be esc
 
 Design the classes and data structures for this problem.
 Implement e method dispatchCall which assignes a call to the first available employee.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Zadanie
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Do tej pory zaimplementowano:
+- przydzielenie rozmowy przychodzącej do respondenta
+- eskalację do managera
+
+Do zaimplementowania pozostały
+- eskalacja do dyrektora
+- zakończenie rozmowy
+- obsługa kolejek rozmów oczekujących (obecnie są one jedynie wykorzystywane do odkładania rozmów przychodzących, którymi nie ma się kto zająć)
+
+Do zrobienia
+- Przeanalizuj istniejący kod
+	- porozmawiaj o tym, co Ci się w tym kodzie nie podoba (pomijamy brak testów ;))
+- zaimplementuj 
+	- zakończenie rozmowy oraz obsługę kolejek rozmów
+	Jeżeli uważasz, że istniejący kod należałoby zmienić, przeprowadź refaktoring, jeżeli jest to konieczne do kontynuacji implementacji
+- Napisz testy dla nowego kodu
